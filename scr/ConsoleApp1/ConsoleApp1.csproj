@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Маша\OneDrive\Документы\git\ducks\scr\Duck2.cs" Link="Duck2.cs" />
+    <Compile Include="C:\Users\Маша\OneDrive\Документы\git\ducks\scr\ducks.cs" Link="ducks.cs" />
+    <Compile Include="C:\Users\Маша\OneDrive\Документы\git\duck\petruniina-wxhami-Duck\Duck2.cs" Link="Duck2.cs" />
+    <Compile Include="C:\Users\Маша\OneDrive\Документы\git\duck\petruniina-wxhami-Duck\scr\Duck2.cs" Link="Duck2.cs" />
+  </ItemGroup>
+
+</Project>

@@ -13,6 +13,17 @@ namespace ConsoleApp1
         public double Tonus;
         public int Age;
         public double Sleeping;
+        public int Id;
+
+        public Duck(string name, int Id)
+        {
+            Name = name;
+            Tonus = 0;
+            Sleeping = 0;
+            Age = 0;
+            Weight = 0;
+            Id = id; 
+        }
 
         public void ShowDuck ()
         {
@@ -62,7 +73,7 @@ namespace ConsoleApp1
                 Tonus -= 0.5;
             }
         }
-        private bool ChekALive()
+        public bool ChekALive()
         {
             if (Age >= 10)
             {
