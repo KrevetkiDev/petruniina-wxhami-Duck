@@ -73,7 +73,7 @@ Duck GetDuck()
     return duckService.GetDuckById(id);
 }
 
-void ShowDuck ()
+void ShowDuck(Duck duck) 
 {
     bool countDuck = OneOrAllDuck();
     if (countDuck = true)
@@ -86,16 +86,14 @@ void ShowDuck ()
         {
             duck.ShowDuck();
         }
-    }
-    
-
+    } 
 }
 
 bool OneOrAllDuck ()
 {
     Console.WriteLine("Do you want choose one (1) or all ducks (2)?");
     int playerChoice = 0;
-    int playerChoose = Convert.ToInt32(Console.ReadLine());
+    playerChoice = Convert.ToInt32(Console.ReadLine());
     if (playerChoice == 1)
     {
         return true;
